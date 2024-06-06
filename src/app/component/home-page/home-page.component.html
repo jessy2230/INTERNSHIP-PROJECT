@@ -1,0 +1,10 @@
+<h1>Kristu Jayanti Intern Community</h1>
+<p>Current Date and Time: {{ currentDate | date: 'full' }}</p>
+<div *ngIf="visible">
+    <h3>About:</h3><br>
+    <p>
+        A successful internship program
+    </p>
+   
+</div>
+<button type="submit" (click)="togglevisibility()">Click me to toggle content</button>
